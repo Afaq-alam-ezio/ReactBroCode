@@ -1,0 +1,10 @@
+.Button{
+
+    background-color: hsl(199, 87%, 55%);
+    border-radius: 10px;
+    padding: 5px;
+    border: none;
+    box-shadow: 2px 2px 1px hsl(189, 67%, 82%);
+    cursor: pointer;
+
+}

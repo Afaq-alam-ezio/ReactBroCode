@@ -1,0 +1,23 @@
+.Logo{
+
+    border: 2px solid hsl(0, 1%, 30%);
+    border-radius: 50%;
+    box-shadow: 5px 5px 3px grey;
+    height: 100px;
+    width: 100px;
+
+}
+
+.Card{
+
+    border: 2px solid hsl(0, 2%, 25%);
+    box-shadow: 4px 4px 3px hsl(0, 0%, 63%);
+    text-align: center;
+    padding: 10px;
+    max-width: 400px;
+    display: inline-block;
+    margin: 10px;
+
+    font-family:'Courier New', Courier, monospace;
+    
+}

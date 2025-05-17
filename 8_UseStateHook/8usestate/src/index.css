@@ -1,0 +1,88 @@
+/* Global styles */
+body {
+  background-color: #f0f0f0;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.app-container {
+  text-align: center;
+  background-color: #fff;
+  padding: 40px 30px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  width: 320px;
+  transition: all 0.3s ease-in-out;
+}
+
+.counter-display {
+  font-size: 2rem;
+  color: #5f1d7e;
+  margin-bottom: 20px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.button {
+  padding: 15px 25px;
+  font-size: 1.1rem;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s ease, background-color 0.3s ease;
+  border-radius: 5px;
+}
+
+.increment {
+  background-color: #4caf50;
+  color: white;
+}
+
+.increment:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+}
+
+.decrement {
+  background-color: #f44336;
+  color: white;
+}
+
+.decrement:hover {
+  background-color: #d32f2f;
+  transform: scale(1.05);
+}
+
+.reset {
+  background-color: #ff9800;
+  color: white;
+}
+
+.reset:hover {
+  background-color: #fb8c00;
+  transform: scale(1.05);
+}
+
+.button:active {
+  transform: scale(0.98);
+}
+
+/* Ensure buttons stack properly on smaller screens */
+@media (max-width: 500px) {
+  .button-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}

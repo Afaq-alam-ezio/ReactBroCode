@@ -1,0 +1,14 @@
+.Card{
+
+  background-color: rgb(196, 179, 158);
+  max-width: 90px;
+  max-height: 200px;
+  border: 2px solid hsl(0, 1%, 41%);
+  padding: 25px;
+  text-align: center;
+  margin: 10px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  display: inline-block;
+  border-radius: 50px;
+
+}

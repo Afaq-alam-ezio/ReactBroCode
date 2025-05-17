@@ -1,0 +1,60 @@
+body{
+
+    background-color: rgb(63, 134, 214);
+    padding: 25px;
+}
+
+.List{
+
+    border: 1px solid rgb(21, 197, 197);
+    background-color: rgb(41, 238, 238);
+    border-radius: 15px;
+    padding: 10px;
+    margin: 30px;
+    display: block;
+    justify-content: center;
+    box-shadow: 2px 2px 16px rgb(17, 17, 145);
+    font-family:Arial, Helvetica, sans-serif;
+    max-width: 400px;
+    
+}
+
+.customList{
+
+    border: 1px solid rgb(21, 197, 197);
+    background-color: rgb(41, 238, 238);
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 16px rgb(17, 17, 145);
+    font-family:Arial, Helvetica, sans-serif;
+    max-width: 300px;
+
+
+}
+
+.listBox{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.heading{
+
+    border: 2px solid rgb(71, 71, 71);
+    border-radius: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    color: rgb(4, 66, 107);
+    text-shadow: 2px 2px 5px rgb(240, 17, 240);
+    padding: 10px;
+}
+
+
+

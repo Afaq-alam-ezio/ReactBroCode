@@ -1,0 +1,37 @@
+.loggedIn{
+
+  border: 0px solid hsl(138, 63%, 71%);
+  background-color: rgb(4, 146, 51);
+  text-align: center;
+  color: azure;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  padding: 25px;
+  font-size: 25px;
+  max-width: 200px;
+  max-height: 90px;
+  border-radius: 25px;
+  box-shadow: 2px 3px 15px green;
+}
+
+.notLoggedIn{
+
+  border: 0px solid hsl(4, 71%, 75%);
+  background-color: rgb(197, 49, 4);
+  text-align: center;
+  color: azure;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  padding: 25px;
+  font-size: 25px;
+  max-width: 200px;
+  max-height: 90px;
+  border-radius: 25px;
+  box-shadow: 2px 3px 15px rgb(179, 3, 3);
+}
+
+body{
+
+  background-color: rgb(31, 77, 85);
+  display: flex;
+  justify-content: center;
+
+}
