@@ -1,0 +1,32 @@
+body {
+  
+    background-image: url("https://images.pexels.com/photos/1643113/pexels-photo-1643113.jpeg");
+    background-size: cover;             /* Makes sure the image covers the whole screen */
+    background-position: center;        /* Keeps the image centered */
+    background-repeat: no-repeat;       /* Prevents image tiling */
+    background-attachment: fixed;
+
+    margin: 0;
+    height: 100vh;                    /* full viewport height */
+    display: flex;                   /* enable flexbox */
+    justify-content: center;         /* center horizontally */
+    align-items: center;   
+}
+
+.time{
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;          /* vertically center content */
+    color: aliceblue;
+    font-family: monospace;
+    font-weight: 300;
+    font-size: 4rem;              /* 400% roughly equals 4rem */
+    background: rgba(255, 255, 255, 0.1);   /* semi-transparent white */
+    backdrop-filter: blur(10px);              /* glassmorphism blur */
+    -webkit-backdrop-filter: blur(10px);      /* Safari support */
+    padding: 30px 60px;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
